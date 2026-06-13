@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+	font-family: "Poppins", sans-serif;
+	font-weight:400;
+	font-size: 0.7rem;
+}
+
+.iconthemecolor{color:red;}
+.dispflex{display:inline-flex;padding:3px;}
+.lblcommon{font-weight:600;}
+.headerrow{margin-bottom:10px;border-bottom:2px solid #E4E4E4;}
+.floatonright{float:right;}
+.lastrowsep{margin-bottom:20px;}
+.operatorname{float:right;}
+/*.btn{padding:0.35rem;font-size:0.9rem;}*/
+.btn{padding:0.16rem;font-size:0.7rem;}
+.btnlist{padding:0.20rem;font-size:0.8rem;}
+/*FORMS*/
+.form-control{padding:.10rem .10rem;font-size: 0.8rem;color:#000;border:1px solid #9a9898;}
+.onright{text-align:right !important;}
+.oncent{text-align:center !important;}
+.remrow{color:red;}
+.frmhead{margin-bottom:0.1rem;}
+.py-4{padding-top:1rem !important;padding-bottom:1rem !important;}
+
+/*Table*/
+.table>:not(caption)>*>*{padding: .2rem .2rem;}
+
+/*Menu*/
+.nav-item .nav-link{font-weight:600;}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color:#ef2f37;}
+
+/*.matloader {
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid #3498db; 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}*/
+
+.matloader {
+	display:inline;
+	margin-left:3px;
+	font-size:12px;
+	color:red;
+	font-style:italic;
+}
+
+.disploader{
+	color:red;
+	font-weight:600;
+	margin-left:5px;
+}
+
+input:read-only {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc;    /* Light gray border */
+  color: #000;               /* Darker text color */
+  cursor: default;           /* Change cursor to default to indicate non-interactivity */
+  opacity: 0.8;              /* Slightly reduce opacity */
+}
+
+textarea:read-only {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc;    /* Light gray border */
+  color: #000;               /* Darker text color */
+  cursor: default;           /* Change cursor to default to indicate non-interactivity */
+  opacity: 0.8;              /* Slightly reduce opacity */
+  resize: none;
+}
+
+.tag {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0.20rem;
+    border-radius: 2px;
+    background: #454e56;
+    color: #b2becd;
+    font-weight: 600;
+    margin: .25em .1em;
+}
+.tag-lg {
+    font-size:0.6rem;
+    border-radius: 4px;
+}
+.tag-green, .tag-pro{
+	background: #09c372;
+    color: #fff;
+}
+.tag-angular {
+    background: #dc0530;
+    color: #fff;
+}
+
+#checkoutloader{
+	margin-top: 2px;
+	margin-left: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+#checkoutmsg{
+	margin-top: 2px;
+	margin-left: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+
+.green-row {
+    background-color: #90EE90;;
+  }
+  /* A more robust method ensures all cells in the row get the color */
+  .green-row td, .green-row th {
+    background-color: #90EE90;;
+  }
+
+.page-link {
+    font-size: 14px; /* Adjust size */
+}
+
+.appname{
+	font-size: 14px;
+	color: red;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.appname {
+  font-family: 'Bebas Neue', cursive;
+  font-weight:400;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);*/
+  background-image: linear-gradient(gold, gold);
+  background-size: 100% 4px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  transition: background-size .7s, background-position .5s ease-in-out;
+  margin-left:20px;
+}
+
+.appname:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+.applocation{
+	margin-left:150px;
+	font-weight:600;
+	color:#1565C0;
+}
+
+.redasterisk{color:red;}
+
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+		max-width:700px;
+	}
+}
+#gatecloseModal .modal-dialog{width:40% !important;}
+.nomarginleft{margin-left:0px;}
+/*.tblinput{padding:.01rem .01rem !important;font-size: 11px;}*/
+.tblinput{padding:.01rem 0.2rem !important;font-size: 0.7rem;}
+
+/*#tblcontaineritem td, #tblcontaineritem th{font-size:10px;}*/
+#tblcontaineritem td, #tblcontaineritem th{font-size:0.7rem;}
+#tblcontaineritem, #tblcontaineritem th, #tblcontaineritem td {
+  border: 1px solid #9a9898; /* Sets color, width, and style */
+  border-color: #9a9898;     /* Sets just the color */
+}
+
+
+.withcurrency{width:80%;}
+.flex-container{}
+.flex-item{display:inline-block;}
+/*.backyellow{background-color:#FFFF8F !important;}
+.backdarkgreen{background-color:#50C878 !important;}
+.backlightgreen{background-color:#92D050 !important;}
+.backdarkyellow{background-color:#FFAC1C !important;}
+.backdarkred{background-color:#E97451 !important;}*/
+
+.colexworks{display:none;}
+.colpacked{display:none;}
+.colfob{display:none;}
+.colcif{display:none;}
+.collanded{display:none;}
+.colpackedcolFCLNH,.colpackedcolLCLNH,.colfobcolFCLNH,.colfobcolLCLNH,.colfobcolFCLH,.colfobcolLCLH,.colcifcolFCLNH,.colcifcolLCLNH,.colcifcolFCLH,.colcifcolLCLH,.collandedcolFCLNH,.collandedcolLCLNH,.collandedcolFCLH,.collandedcolLCLH{display:none;}
+
+.row>*{padding-left:4px !important;}
+.totalcols td{background-color:#eee;}
+.headcols th{background-color:#D0D5DD;}
+.whitebox{box-shadow:1px 2px 10px #c2c2c2;background-color:#F7F7F7;}
+.adarea{padding: 5px;height: auto;}
+.adtextarea {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #5f5f5f;
+    text-align: left;
+}
+.tplhead2 {
+    padding: 5px 0 5px 0;
+    border-bottom: 2px solid #E4E4E4;
+}
+.MB5 {
+    margin-bottom: 5px;
+}
+.clearfix {
+    display: block;
+}
+.tplhead2 .stkhead2 {
+    color: #000000;
+    font: 500 1rem 'Lato', sans-serif;
+}
+.rightpanelarea{padding:5px 0 5px 0;}
+
+@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+    .tp-header-pb-logobg {
+        clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
+        width: 220px;
+    }
+}
+
+.tp-header-pb-logobg {
+    position: absolute;
+    top: 0;
+    left: 116px;
+    width: 90%;
+    height: 100%;
+    background: #ed1c24;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 6% 100%);
+    z-index: 9;
+	opacity: 0.2;
+}
+
+.nav-link{font-size:0.8rem;}
+.menucustom{margin-left:20px;z-index:99;}
+.ttlcostfont{color:#228B22 !important;font-weight:600;}
